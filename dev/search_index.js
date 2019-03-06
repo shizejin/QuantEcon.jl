@@ -861,7 +861,7 @@ var documenterSearchIndex = {"docs": [
     "page": "QuantEcon",
     "title": "QuantEcon.simplex_index",
     "category": "method",
-    "text": "Return the index of the point x in the lexicographic order of the integer points of the (m-1)-dimensional simplex  x mid x_0 + cdots + x_m-1 = n.\n\nArguments\n\nx::Array{Int,1} : Integer point in the simplex, i.e., an array of                     m nonnegative integers that sum to n.\nm::Int : Dimension of each point. Must be a positive integer.\nn::Int : Number which the coordinates of each point sum to. Must be a            nonnegative integer.\n\nReturns\n\nidx::Int : Index of x.\n\n\n\n"
+    "text": "Return the index of the point x in the lexicographic order of the integer points of the (m-1)-dimensional simplex x mid x_0 +  cdots + x_m-1 = n.\n\nArguments\n\nx::Array{Int,1} : Integer point in the simplex, i.e., an array of                     m nonnegative integers that sum to n.\nm::Int : Dimension of each point. Must be a positive integer.\nn::Int : Number which the coordinates of each point sum to. Must be a            nonnegative integer.\n\nReturns\n\nidx::Int : Index of x.\n\n\n\n"
 },
 
 {
